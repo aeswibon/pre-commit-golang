@@ -1,0 +1,6 @@
+- id: go-vet
+  name: "go vet"
+  description: "Runs `go vet` to find any suspicious constructs"
+  language: script
+  files: '\.go$'
+  entry: run-go-vet.sh
